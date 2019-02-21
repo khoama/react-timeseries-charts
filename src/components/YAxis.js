@@ -115,6 +115,12 @@ export default class YAxis extends React.Component {
             this.props.format
         );
     }
+    
+    // Add support for React > 0.17
+    getDerivedStateFromProps(nextProps) {
+        this.componentWillReceiveProps(nextProps);
+        return null;
+    }
 
     componentWillReceiveProps(nextProps) {
         const {
