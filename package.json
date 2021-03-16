@@ -6,7 +6,8 @@
     "d3",
     "charts",
     "react",
-    "timeseries"
+    "timeseries",
+    "ccpm"
   ],
   "homepage": "http://software.es.net/react-timeseries-charts",
   "main": "lib/entry",
